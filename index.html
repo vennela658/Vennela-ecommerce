@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VENNELA - Fine Jewellery</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Times New Roman',serif}
+body{background:#0a0a0a;color:#D4AF37}
+.nav{display:flex;justify-content:space-between;padding:18px 5%;border-bottom:1px solid #222;align-items:center}
+.nav b{font-size:20px;letter-spacing:3px}
+.hero{display:flex;min-height:85vh;flex-wrap:wrap}
+.half{flex:1;min-width:300px;padding:40px;display:flex;flex-direction:column;justify-content:flex-end}
+.women{background:#FFFBF0;color:#1a1a1a}
+.men{background:#111;color:#D4AF37;text-align:right;align-items:flex-end}
+h1{font-size:38px;line-height:1.1;margin-bottom:12px}
+p{opacity:0.8;margin-bottom:18px}
+.btn{background:#D4AF37;color:#000;border:none;padding:14px 28px;font-weight:bold;letter-spacing:1px;cursor:pointer}
+.shop{padding:50px 5%;background:#fff;color:#000;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:20px;margin-top:30px}
+.card{border:1px solid #eee;padding:15px}
+.card img{width:100%;height:160px;object-fit:cover;background:#f5f5f5}
+</style>
+</head>
+<body>
+<div class="nav"><b>VENNELA</b><span>Shop | Cart (0)</span></div>
+<div class="hero">
+<div class="half women"><h1>Women<br>Delicate Gold<br>& Pearl</h1><p>Timeless pearls for everyday elegance</p><button class="btn">SHOP WOMEN →</button></div>
+<div class="half men"><h1>Men<br>Bold Gold<br>Chain</h1><p>Statement chains for modern man</p><button class="btn">SHOP MEN →</button></div>
+</div>
+<div class="shop"><h2>Best Sellers</h2><div class="grid"><div class="card"><div style="height:160px;background:#f9f6f0;display:flex;align-items:center;justify-content:center">Pearl Necklace</div><p>₹2,499</p></div><div class="card"><div style="height:160px;background:#f0f0f0;display:flex;align-items:center;justify-content:center">Gold Chain</div><p>₹3,999</p></div><div class="card"><div style="height:160px;background:#f9f6f0;display:flex;align-items:center;justify-content:center">Gold Earrings</div><p>₹1,899</p></div></div></div>
+</body>
+</html>
